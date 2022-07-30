@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Memory Test Game</title>
+    <link rel="icon" href="icon.png" sizes="16x16" type="image/png"/>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="gameContainer after">
+    <audio>
+        <source src="audio/hurry.mp3">
+    </audio>
+    <div class="container">
+        <div class="text-center game-title">Memory Test</div>
+        <div class="dev-title">Developed By Asmit Nepali</div>
+        <div class="click-count">Total Click: <span id="count">0</span></div>
+    </div>
+    <div class="card flip" data-image="cow">
+        <img src="images/cow.png" class="front flip" alt="cow"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="cow">
+        <img src="images/cow.png" class="front flip" alt="cow"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="bottle">
+        <img src="images/bottle.png" class="front" alt="bottle"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="bottle">
+        <img src="images/bottle.png" class="front" alt="bottle"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="apple">
+        <img src="images/apple.png" class="front" alt="apple"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="apple">
+        <img src="images/apple.png" class="front" alt="apple"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="hat">
+        <img src="images/hat.png" class="front" alt="hat"/>
+        <img src="images/icon.png" class="back" alt="hat"/>
+    </div>
+    <div class="card flip" data-image="hat">
+        <img src="images/hat.png" class="front" alt="hat"/>
+        <img src="images/icon.png" class="back" alt="hat"/>
+    </div>
+    <div class="card flip" data-image="vomitface">
+        <img src="images/vomitface.png" class="front" alt="vomitface"/>
+        <img src="images/icon.png" class="back" alt="vomitface"/>
+    </div>
+    <div class="card flip" data-image="vomitface">
+        <img src="images/vomitface.png" class="front" alt="vomitface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="sneezeface">
+        <img src="images/sneezeface.png" class="front" alt="sneezeface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="sneezeface">
+        <img src="images/sneezeface.png" class="front" alt="sneezeface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="mindblownface">
+        <img src="images/mindblownface.png" class="front" alt="mindblownface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="mindblownface">
+        <img src="images/mindblownface.png" class="front" alt="mindblownface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="thinkingface">
+        <img src="images/thinkingface.png" class="front" alt="thinkingface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+    <div class="card flip" data-image="thinkingface">
+        <img src="images/thinkingface.png" class="front" alt="thinkingface"/>
+        <img src="images/icon.png" class="back" alt="icon"/>
+    </div>
+</div>
+<div class="right-image indicator-image" id="indicator-image">
+    <img src="" id= "status-image" class="pop-image">
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
